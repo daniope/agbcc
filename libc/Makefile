@@ -10,7 +10,7 @@ DKA_EXISTS=0
 endif
 
 ifneq ($(DKA_EXISTS),1)
-PREFIX := arm-none-eabi-
+PREFIX := arm-linux-gnueabi-
 export AR := $(PREFIX)ar
 export AS := $(PREFIX)as
 endif
